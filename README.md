@@ -13,6 +13,8 @@ This particular doc will be automatically excluded from the result set of `find`
 
 ## Usage
 
+`meteor add verso:archive-collection`
+
 `Responses = new ArchiveCollection('responses');`
 
 By default, all archived documents returned from `find` and `findOne` will be filtered out:
