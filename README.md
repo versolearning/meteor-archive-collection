@@ -8,7 +8,7 @@ filter out archived documents. This will help simplify your code if your applica
 archived documents.
 
 Note: Archived documents are documents with an `archived` property set to `true`. For example, you
-can mark a document as archived like this: `MyCollection.update('docId', {$set: {archive: true}})`. 
+can mark a document as archived like this: `MyCollection.update('docId', {$set: {archived: true}})`. 
 This particular doc will be automatically excluded from the result set of `find` and `findOne`.
 
 ## Usage
