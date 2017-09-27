@@ -1,7 +1,7 @@
 Package.describe({
   name: 'verso:archive-collection',
   summary: 'Collection with all archived documents automatically filtered out from query result',
-  version: '0.0.2',
+  version: '0.0.3',
   git: 'https://github.com/versolearning/meteor-archive-collection'
 });
 
